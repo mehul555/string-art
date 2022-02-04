@@ -24,7 +24,6 @@ html {
 #mainCarousel {
   width: auto;
   margin: 0 auto 1rem auto;
-
   --carousel-button-color: #170724;
   --carousel-button-bg: #fff;
   --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
@@ -148,14 +147,10 @@ html {
   background-color: transparent;
 }
 .car {
-  height: 400px;
-  width: 900px;
+  width: auto;
+  height: 30vw;
 }
-/* @media(max-width:568px){
-  .pimg1, .pimg2, .pimg3{
-    background-attachment:scroll;
-  }
-} */
+
 #mainCarousel1 {
   width: auto;
   margin: 0 auto 1rem auto;
@@ -255,4 +250,19 @@ html {
 
 #thumbCarousel2 .carousel__slide.is-nav-selected {
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pimg1,
+  .pimg2,
+  .pimg3 {
+    min-height: 250px;
+  }
 }
