@@ -13,7 +13,6 @@ html {
   margin-bottom: 0px;
 }
 #container {
-  background-image: url("../img/background.jpg");
   height: 70vh;
 
   background-attachment: fixed;
