@@ -15,10 +15,10 @@ html {
 #container {
   height: 70vh;
 
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 0px;
+  margin-top: 20px;
 }
 #mainCarousel {
   width: auto;
@@ -256,6 +256,10 @@ html {
   .pimg3 {
     min-height: 400px;
   }
+  #container {
+    height: 50vh;
+    margin-top: 70px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -263,5 +267,9 @@ html {
   .pimg2,
   .pimg3 {
     min-height: 250px;
+  }
+  #container {
+    height: 40vh;
+    margin-top: 70px;
   }
 }
